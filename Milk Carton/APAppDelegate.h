@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FBConnect.h"
 
-@interface APAppDelegate : UIResponder <UIApplicationDelegate>
+@interface APAppDelegate : UIResponder <UIApplicationDelegate, FBSessionDelegate> {
+    Facebook *facebook;
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, retain) Facebook *facebook;
 
 @end

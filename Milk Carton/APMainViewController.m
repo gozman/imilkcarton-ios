@@ -7,6 +7,7 @@
 //
 
 #import "APMainViewController.h"
+#import "APAppDelegate.h"
 
 @implementation APMainViewController
 
@@ -90,6 +91,17 @@
             self.flipsidePopoverController = popoverController;
             popoverController.delegate = self;
         }
+    }
+}
+
+-(IBAction)registerDevice:(id)sender {
+    APAppDelegate* delegate = (APAppDelegate*)[[UIApplication sharedApplication] delegate];
+    
+    if (![delegate.facebook isSessionValid]) {
+        NSArray *permissions = [[NSArray alloc] initWithObjects:
+                                @"e-mail", 
+                                nil];
+        [delegate.facebook authorize:nil];
     }
 }
 

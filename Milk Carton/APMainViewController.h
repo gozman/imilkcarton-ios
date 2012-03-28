@@ -12,4 +12,5 @@
 
 @property (strong, nonatomic) UIPopoverController *flipsidePopoverController;
 
+-(IBAction)registerDevice:(id)sender;
 @end
