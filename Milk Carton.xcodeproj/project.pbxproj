@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5B58ACF152379E600644567 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B58ACE152379E600644567 /* UIKit.framework */; };
+		F5B58AD1152379E600644567 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B58AD0152379E600644567 /* Foundation.framework */; };
+		F5B58AD3152379E600644567 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5B58AD2152379E600644567 /* CoreGraphics.framework */; };
+		F5B58AD9152379E600644567 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5B58AD7152379E600644567 /* InfoPlist.strings */; };
+		F5B58ADB152379E600644567 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B58ADA152379E600644567 /* main.m */; };
+		F5B58ADF152379E600644567 /* APAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B58ADE152379E600644567 /* APAppDelegate.m */; };
+		F5B58AE2152379E600644567 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B58AE0152379E600644567 /* MainStoryboard_iPhone.storyboard */; };
+		F5B58AE5152379E600644567 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B58AE3152379E600644567 /* MainStoryboard_iPad.storyboard */; };
+		F5B58AE8152379E600644567 /* APMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B58AE7152379E600644567 /* APMainViewController.m */; };
+		F5B58AEB152379E700644567 /* APFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B58AEA152379E700644567 /* APFlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5B58ACA152379E600644567 /* Milk Carton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milk Carton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B58ACE152379E600644567 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5B58AD0152379E600644567 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5B58AD2152379E600644567 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5B58AD6152379E600644567 /* Milk Carton-Info.plist */ = {isa = PBXFileReference; path = "Milk Carton-Info.plist"; sourceTree = "<group>"; };
+		F5B58AD8152379E600644567 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5B58ADA152379E600644567 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5B58ADC152379E600644567 /* Milk Carton-Prefix.pch */ = {isa = PBXFileReference; path = "Milk Carton-Prefix.pch"; sourceTree = "<group>"; };
+		F5B58ADD152379E600644567 /* APAppDelegate.h */ = {isa = PBXFileReference; path = APAppDelegate.h; sourceTree = "<group>"; };
+		F5B58ADE152379E600644567 /* APAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APAppDelegate.m; sourceTree = "<group>"; };
+		F5B58AE1152379E600644567 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F5B58AE4152379E600644567 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F5B58AE6152379E600644567 /* APMainViewController.h */ = {isa = PBXFileReference; path = APMainViewController.h; sourceTree = "<group>"; };
+		F5B58AE7152379E600644567 /* APMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APMainViewController.m; sourceTree = "<group>"; };
+		F5B58AE9152379E700644567 /* APFlipsideViewController.h */ = {isa = PBXFileReference; path = APFlipsideViewController.h; sourceTree = "<group>"; };
+		F5B58AEA152379E700644567 /* APFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APFlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B58AC7152379E600644567 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B58ACF152379E600644567 /* UIKit.framework in Frameworks */,
+				F5B58AD1152379E600644567 /* Foundation.framework in Frameworks */,
+				F5B58AD3152379E600644567 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5B58ABF152379E600644567 = {
+			isa = PBXGroup;
+			children = (
+				F5B58AD4152379E600644567 /* Milk Carton */,
+				F5B58ACD152379E600644567 /* Frameworks */,
+				F5B58ACB152379E600644567 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B58ACB152379E600644567 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B58ACA152379E600644567 /* Milk Carton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B58ACD152379E600644567 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5B58ACE152379E600644567 /* UIKit.framework */,
+				F5B58AD0152379E600644567 /* Foundation.framework */,
+				F5B58AD2152379E600644567 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5B58AD4152379E600644567 /* Milk Carton */ = {
+			isa = PBXGroup;
+			children = (
+				F5B58ADD152379E600644567 /* APAppDelegate.h */,
+				F5B58ADE152379E600644567 /* APAppDelegate.m */,
+				F5B58AE0152379E600644567 /* MainStoryboard_iPhone.storyboard */,
+				F5B58AE3152379E600644567 /* MainStoryboard_iPad.storyboard */,
+				F5B58AE6152379E600644567 /* APMainViewController.h */,
+				F5B58AE7152379E600644567 /* APMainViewController.m */,
+				F5B58AE9152379E700644567 /* APFlipsideViewController.h */,
+				F5B58AEA152379E700644567 /* APFlipsideViewController.m */,
+				F5B58AD5152379E600644567 /* Supporting Files */,
+			);
+			path = "Milk Carton";
+			sourceTree = "<group>";
+		};
+		F5B58AD5152379E600644567 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B58AD6152379E600644567 /* Milk Carton-Info.plist */,
+				F5B58AD7152379E600644567 /* InfoPlist.strings */,
+				F5B58ADA152379E600644567 /* main.m */,
+				F5B58ADC152379E600644567 /* Milk Carton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B58AC9152379E600644567 /* Milk Carton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B58AEE152379E700644567 /* Build configuration list for PBXNativeTarget "Milk Carton" */;
+			buildPhases = (
+				F5B58AC6152379E600644567 /* Sources */,
+				F5B58AC7152379E600644567 /* Frameworks */,
+				F5B58AC8152379E600644567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Milk Carton";
+			productName = "Milk Carton";
+			productReference = F5B58ACA152379E600644567 /* Milk Carton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B58AC1152379E600644567 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Convoca;
+			};
+			buildConfigurationList = F5B58AC4152379E600644567 /* Build configuration list for PBXProject "Milk Carton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5B58ABF152379E600644567;
+			productRefGroup = F5B58ACB152379E600644567 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B58AC9152379E600644567 /* Milk Carton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B58AC8152379E600644567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B58AD9152379E600644567 /* InfoPlist.strings in Resources */,
+				F5B58AE2152379E600644567 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F5B58AE5152379E600644567 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B58AC6152379E600644567 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B58ADB152379E600644567 /* main.m in Sources */,
+				F5B58ADF152379E600644567 /* APAppDelegate.m in Sources */,
+				F5B58AE8152379E600644567 /* APMainViewController.m in Sources */,
+				F5B58AEB152379E700644567 /* APFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5B58AD7152379E600644567 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B58AD8152379E600644567 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5B58AE0152379E600644567 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B58AE1152379E600644567 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B58AE3152379E600644567 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B58AE4152379E600644567 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B58AEC152379E700644567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5B58AED152379E700644567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B58AEF152379E700644567 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Milk Carton/Milk Carton-Prefix.pch";
+				INFOPLIST_FILE = "Milk Carton/Milk Carton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5B58AF0152379E700644567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Milk Carton/Milk Carton-Prefix.pch";
+				INFOPLIST_FILE = "Milk Carton/Milk Carton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B58AC4152379E600644567 /* Build configuration list for PBXProject "Milk Carton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B58AEC152379E700644567 /* Debug */,
+				F5B58AED152379E700644567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B58AEE152379E700644567 /* Build configuration list for PBXNativeTarget "Milk Carton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B58AEF152379E700644567 /* Debug */,
+				F5B58AF0152379E700644567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B58AC1152379E600644567 /* Project object */;
+}
